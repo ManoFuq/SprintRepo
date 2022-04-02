@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/design.css">
+    <script src="https://kit.fontawesome.com/ce28bef9c2.js" crossorigin="anonymous"></script>
+    <title>Product Page</title>
+</head>
+<body>
+  <!-- Start of navbar -->
+    <nav class="navbar navbar-expand-lg fs-5 bg-light sticky-top">
+        <div class="container">
+          <a class="navbar-brand pe-1" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link p-2" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle p-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Activities
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                  <li><a class="dropdown-item" href="#">Login</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-2" href="#">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-2" href="#">About</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="search btn btn-outline-success border border-secondery" type="submit">
+                  <i class="fa-solid fa-magnifying-glass text-secondary"></i>
+                </button>
+              <i class="nav-item">
+                  <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+              </i>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- End of navbar -->
+      <!-- Start of product page -->
+      <div class="container landing">
+        <div class="row">
+          <div class="col-md-5">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="https://i.ibb.co/ZYvPRPH/269315607-4663928700328180-1157486890654536362-n.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://i.ibb.co/BnPPSjh/269262485-4663942976993419-8089340987207112004-n.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://i.ibb.co/Pz7nnCL/269537268-4663942706993446-643865234750223729-n.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="informations col-md-7 ps-4 pt-2">
+            <p class="new text-center">New</p>
+            <h2>Product</h2>
+            <p>
+              ID: <b class="bold">XsZzCQ2010</b> 
+            </p>
+            <p class="price">
+              Price: <b class="bold">USD $20.00</b>
+            </p>
+            <p>
+              Availability: <b class="bold"> In Stock</b>
+            </p>
+            <p>
+              Brand: <b class="bold">Zara</b>
+              </p>
+            <label class="bold pb-1">I want: </label>
+            <input class="form-control me-2" style="width: 60px; max-width: 110px;" type="text" placeholder="1">
+            <button class="btn btn-default cart" type="button" >
+              Add to cart
+            </button>
+            <br>
+            <button class="btn btn-default mt-2 buy" type="button">Buy now</button>
+          </div>
+        </div>
+      </div>
+      <!-- End of product page-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+</body>
+</html>
