@@ -6,7 +6,6 @@
 }
 
 body{
-    height: 100000px;
     font-family: 'Cairo', sans-serif;
     color: var(--p-color);
     font-size: 1.7rem;

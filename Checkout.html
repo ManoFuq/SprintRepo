@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/checkout.css">
+    <script src="https://kit.fontawesome.com/ce28bef9c2.js" crossorigin="anonymous"></script>
+    <title>Checkout Page</title>
+</head>
+<body>
+  <!-- Start of navbar -->
+    <nav class="navbar navbar-expand-lg fs-5 bg-light sticky-top">
+        <div class="container">
+          <a class="navbar-brand pe-1" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link p-2" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle p-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Activities
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Sign Up</a></li>
+                  <li><a class="dropdown-item" href="#">Login</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-2" href="#">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-2" href="#">About</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="search btn btn-outline-success border border-secondery" type="submit">
+                  <i class="fa-solid fa-magnifying-glass text-secondary"></i>
+                </button>
+              <i class="nav-item">
+                  <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+              </i>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- End of navbar -->
+      <!-- Start of checkout page -->
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-12 mb-lg-0 mb-3">
+                <div class="card p-3">
+                    <i class="fa-brands fa-cc-visa fs-1 col-lg-1"></i>
+                    <div class="number"> <label class="fw-bold" for="">**** **** **** 1060</label> </div>
+                    <div class="d-flex align-items-center justify-content-between"> <small><span class="fw-bold red">Expire date: </span><span>10/16</span></small> <small><span class="fw-bold red">Name: </span><span>Mohamed</span></small> </div>
+                </div>
+            </div>
+            <div class="col-12 mt-4">
+                <div class="card p-3">
+                    <p class="mb-0 fw-bold h4">Payment Methods</p>
+                </div>
+            </div>
+            <div class="col-7">
+                <div class="card p-3">
+                    <div class="card-body border p-0">
+                        <p> <a class="btn btn-primary w-100 h-100 d-flex align-items-center justify-content-between" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="true" aria-controls="collapseExample"> 
+                            <span class="fw-bold">PayPal</span>
+                             <span class="fab fa-cc-paypal"> </span>
+                             </a> </p>
+                        <div class="collapse p-3 pt-0" id="collapseExample">
+                            <div class="row">
+                                <div class="col-12">
+                                    <p class="mb-0"><span class="fw-bold red">Product: </span><span class="fs-5">T-shirt</span></p>
+                                    <p class="mb-0"><span class="fw-bold red">Price: </span><span class="fs-5">$19.99</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body border p-0">
+                        <p> <a class="btn btn-primary p-2 w-100 h-100 d-flex align-items-center justify-content-between" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="true" aria-controls="collapseExample">
+                             <span class="fw-bold">Credit Card</span> 
+                             <span class="">
+                             <span class="fab fa-cc-amex"></span> 
+                             <span class="fab fa-cc-mastercard"></span>
+                             <span class="fab fa-cc-discover"></span> 
+                            </span> </a> </p>
+                        <div class="collapse p-3 pt-0" id="collapseExample1">
+                            <div class="row">
+                                <div class="col-lg-12 mb-lg-0 mb-3">
+                                    <p class="mb-0"><span class="fw-bold red">Product: </span><span class="fs-5">T-shirt</span> </p>
+                                    <p class="mb-0"> <span class="fw-bold red">Price: </span> <span class="fs-5">$19.99</span> </p>
+                                </div>
+                                <div class="col-lg-7">
+                                    <form action="" class="form">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="form__div"> <input type="text" class="form-control" placeholder=" "> <label for="" class="form__label">Card Number</label> </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form__div"> <input type="text" class="form-control" placeholder=" "> <label for="" class="form__label">MM / yy</label> </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="form__div"> <input type="password" class="form-control" placeholder=" "> <label for="" class="form__label">cvv code</label> </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form__div"> <input type="text" class="form-control" placeholder=" "> <label for="" class="form__label">name on the card</label> </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="btn btn-primary w-100">Sumbit</div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="btn btn-primary payment"> Make Payment </div>
+            </div>
+        </div>
+    </div>
+      <!-- End of checkout page-->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+</body>
+</html>
